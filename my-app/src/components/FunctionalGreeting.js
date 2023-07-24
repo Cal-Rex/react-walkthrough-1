@@ -9,7 +9,7 @@ import React from "react";
 // }
 
 // same function but as an arrouw function
-
+const FunctionalGreeting = () => <h1>Hello from React!</h1>;
 
 // with function created, it now needs to be exported 
 // so it can be imported elsewhere
