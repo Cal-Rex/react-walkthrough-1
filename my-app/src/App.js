@@ -19,8 +19,10 @@ import './App.css';
 // import ControlledFormHooks from './components/ControlledFormHooks';
 // import UseStateWithArrays from './components/UseStateWithArrays';
 // import UseStateWithObjects from './components/UseStateWithObjects';
-import ClassSideEffectsDemo from './components/ClassSideEffectsDemo';
-import UseEffectCounter from './components/UseEffectCounter';
+// import ClassSideEffectsDemo from './components/ClassSideEffectsDemo';
+// import UseEffectCounter from './components/UseEffectCounter';
+// import UseEffectCounterWithTimer from './components/UseEffectCounterWithTimer';
+import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 
 function App() {
   return (
@@ -43,8 +45,11 @@ function App() {
       {/* <SearchBar /> */}
       {/* <UseStateWithArrays /> */}
       {/* <UseStateWithObjects /> */}
-      <ClassSideEffectsDemo />
-      <UseEffectCounter />
+      {/* <ClassSideEffectsDemo /> */}
+      {/* <UseEffectCounter /> */}
+      {/* <UseEffectCounterWithTimer /> */}
+      <UseEffectCounterContainer />
+
       
     </div>
   );
