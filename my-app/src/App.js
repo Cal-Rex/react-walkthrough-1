@@ -22,7 +22,10 @@ import './App.css';
 // import ClassSideEffectsDemo from './components/ClassSideEffectsDemo';
 // import UseEffectCounter from './components/UseEffectCounter';
 // import UseEffectCounterWithTimer from './components/UseEffectCounterWithTimer';
-import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+// import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+// import HTTPRequests from './components/HTTPRequests';
+// import HTTPPost from './components/HTTPPost';
+import HTTPHooks from './components/HTTPHooks';
 
 function App() {
   return (
@@ -48,9 +51,10 @@ function App() {
       {/* <ClassSideEffectsDemo /> */}
       {/* <UseEffectCounter /> */}
       {/* <UseEffectCounterWithTimer /> */}
-      <UseEffectCounterContainer />
-
-      
+      {/* <UseEffectCounterContainer /> */}
+      {/* <HTTPRequests /> */}
+      {/* <HTTPPost /> */}
+      <HTTPHooks />
     </div>
   );
 }
